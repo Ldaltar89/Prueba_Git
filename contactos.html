@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contactanos</title>
+  </head>
+  <body>
+    <header class="bg-white">
+      <nav class="flex justify-between items-center w-[92%] mx-auto">
+        <div>
+          <a href="index.html">
+            <img class="w-16 cursor-pointer" src="img/logo.png" alt="..." />
+          </a>
+        </div>
+        <div class="">
+          <ul class="flex items-center gap-[4vw]">
+            <li>
+              <a class="hover:text-gray-500" href="Producto.html">Productos</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="experiencia.html"
+                >Experiencias</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="videos.html">Videos</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="precios.html">Precios</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="contactos.html"
+                >Contactanos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]"
+          >
+            Iniciar
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="mx-auto max-w-screen-sm text-center mt-10">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
+        Conocenos
+      </h2>
+      <p class="font-light text-gray-500 mb-4 sm:text-xl">
+        Esse sint irure est anim ullamco nisi voluptate mollit Lorem labore
+        occaecat.Duis incididunt elit qui duis aliqua amet Lorem consequat anim
+        ut ex reprehenderit laboris.
+      </p>
+    </div>
+    <section class="bg-white">
+      <div class="py-6 px-2 mx-auto max-w-2xl">
+        <h2 class="mb-4 text-xl font-bold text-gray-900">
+          Envianos un mensaje
+        </h2>
+        <form action="#">
+          <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
+            <div class="sm:col-span-2">
+              <label
+                for="name"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Nombres</label
+              >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
+                placeholder="Nombres"
+                required=""
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="brand"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Apellidos</label
+              >
+              <input
+                type="text"
+                name="brand"
+                id="brand"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
+                placeholder="Apellidos"
+                required=""
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="brand"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Precio</label
+              >
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
+                placeholder="$1568"
+                required=""
+              />
+            </div>
+            <div>
+              <label
+                for="category"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Tipos de Bicicleta</label
+              >
+              <select
+                id="category"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              >
+                <option selected="">Selecciona la Categoria</option>
+                <option value="TV">Hiland</option>
+                <option value="PC">Frike</option>
+                <option value="GA">Generic</option>
+                <option value="PH">Dinling</option>
+              </select>
+            </div>
+            <div>
+              <label
+                for="item-weight"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Correo</label
+              >
+              <input
+                type="email"
+                name="item-weight"
+                id="item-weight"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
+                placeholder="correo@correo.com"
+                required=""
+              />
+            </div>
+            <div class="sm:col-span-2">
+              <label
+                for="description"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Mensaje</label
+              >
+              <textarea
+                id="description"
+                rows="8"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+                placeholder="Envianos un mensaje"
+              ></textarea>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 mt-4"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-black py-8 text-center text-white items-center m-0">
+      <div class="">
+        <ul
+          class="flex flex-wrap text-center mb-6 text-md font-medium text-gray-500 justify-center"
+        >
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6"
+              >Acerca de nosotros</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6"
+              >Politica de Privacidad</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Información</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+      <hr
+        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+      />
+      <div class="container mx-auto">
+        Copyright &copy: 2023. Todos los derechos reservados.
+      </div>
+    </footer>
+  </body>
+</html>
